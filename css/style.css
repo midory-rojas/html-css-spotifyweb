@@ -5,38 +5,52 @@
     box-sizing:border-box;
 }
 
-.wrapper {
-    width:100%;
-    height:calc(100vh - 100px);
-    display:flex;
+img {
+    max-width:100%;
 }
+
 body {
     font-family: sans-serif;
 }
+
+/* Layout */
+.wrapper {
+    width:100%;
+    height:calc(100vh - 90px);
+}
+
+.container {
+    display:flex;
+    height:100%;
+}
+
+
 /* sidebar */
 .sidebar {
     background-color:lightgreen;
-    width:120px;
-    flex-shrink: 0;
-    overflow-y:auto;
+    width:70px;
 }
+
 /* content */
 .content {
-    width:calc(100% - 120px);
+    width:calc(100% - 70px);
+    overflow-y: auto;
+    background-color: lightyellow;
 }
+
+/* Header */
 header {
     background-color: rgb(217, 187, 217);
     height:80px;
-    overflow-x: auto;
+    position:sticky;
+    top:0;
+    left:0;  
 }
 
-main {
-    height: calc(100vh - 180px);
-    overflow-y:auto;
-    background-color: lightyellow;
-}
+
 /* footer */
-.footer {
+footer {
+    height:90px;
     background-color: rgb(228, 171, 171);
 }
 

@@ -1,5 +1,22 @@
-/* mobile-s: 600px */
+/* mobile-s */
+@media screen  and (min-width: 600px) {
+    .sidebar {
+        width:200px;
+    }
+    .content {
+        width:calc(100% - 200px);
+    }
+}
 
-/* tablet-md: 700px */
 
-/* desktop-lg: 1100px */
+/* tablet-md:  */
+@media screen and (min-width: 700px) {
+    .sidebar {
+        
+    }
+}
+
+/* desktop-lg:  */
+@media screen and (min-width: 1100px) {
+    
+}
