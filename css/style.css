@@ -10,7 +10,8 @@ img {
 }
 
 body {
-    font-family: sans-serif;
+    font-family:"Montserrat", sans-serif;
+
 }
 a {
     text-decoration: none;
@@ -68,12 +69,12 @@ a {
 .content {
     width:calc(100% - 60px);
     overflow-y: auto;
-    background-color: lightyellow;
+    background-color: rgb(31, 31, 31);
 }
 
 /* Header */
 header {
-    background-color: rgb(27, 26, 26);
+    background-color: black;
     height:80px;
     position:sticky;
     top:0;
@@ -110,9 +111,8 @@ main {
 }
 .col {
     width: calc(100% / 2 - 10px / 2);
-
     /* debug */
-    background-color: lightsalmon;
+    
     min-height:200px;
 }
 
@@ -122,6 +122,19 @@ footer {
     height:90px;
     background-color: grey;
 }
+
+ /* debug */
+ h4,
+ p {
+    color:white;
+ }
+
+ h2 {
+    color:white;
+    margin: 12px 0;
+ }
+
+ 
 
 
 
