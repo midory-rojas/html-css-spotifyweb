@@ -47,11 +47,37 @@ header {
     left:0;  
 }
 
+/* Main nav */
+.main-nav ul {
+    display:Flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:20px;
+    list-style:none;
+    text-transform:uppercase;
+    margin-top:20px;
+}
+
+/* Section gray */
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.col {
+    width: calc(100% / 2 - 10px / 2);
+
+    /* debug */
+    background-color: lightsalmon;
+    min-height:200px;
+}
+
 
 /* footer */
 footer {
     height:90px;
     background-color: rgb(228, 171, 171);
 }
+
 
 
