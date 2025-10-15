@@ -12,6 +12,10 @@ img {
 body {
     font-family: sans-serif;
 }
+a {
+    text-decoration: none;
+    list-style: none;
+}
 
 /* Layout */
 .wrapper {
@@ -27,24 +31,64 @@ body {
 
 /* sidebar */
 .sidebar {
-    background-color:lightgreen;
-    width:70px;
+    background-color:black;
+    width:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 0;
 }
+
+.menu-sopra img,
+.menu-sotto img {
+    width:35px;
+}
+.lista {
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+/* utilities */
+
+/* buttons */
+.btn {
+    display:inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: white;
+    border: 2px solid white;
+    
+}
+
 
 /* content */
 .content {
-    width:calc(100% - 70px);
+    width:calc(100% - 60px);
     overflow-y: auto;
     background-color: lightyellow;
 }
 
 /* Header */
 header {
-    background-color: rgb(217, 187, 217);
+    background-color: rgb(27, 26, 26);
     height:80px;
     position:sticky;
     top:0;
     left:0;  
+}
+.upgrade {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 5px;
+}
+
+
+/* Main */
+main {
+    padding: 20px;
 }
 
 /* Main nav */
@@ -76,8 +120,11 @@ header {
 /* footer */
 footer {
     height:90px;
-    background-color: rgb(228, 171, 171);
+    background-color: grey;
 }
+
+
+
 
 
 
