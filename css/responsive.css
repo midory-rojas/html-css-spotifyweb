@@ -6,8 +6,46 @@
     .content {
         width:calc(100% - 200px);
     }
-    
-    
+
+/* Sidebar */
+.sidebar {
+    padding:10px 20px;
+}
+.logo-small {
+    display:none;
+}
+.logo-large {
+    display:inline-block;
+    width:70%;
+}
+.sidebar-menu span {
+    display:inline;
+} 
+.playlist > * {
+    display:block;
+}  
+.add {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px;
+}
+.plus {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color: lightgrey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+.profilo a {
+    justify-content:flex-start;
+}
+.profilo span {
+    display:inline;
+}
 }
 
 

@@ -19,20 +19,62 @@
         <div class="container">
             <!--Sidebar-->
             <div class="sidebar">
-                <div class="menu-sopra">
-                    <ul class="lista">
-                        <li><img src="./img/logo-small.svg"></li>
-                        <li><img src="./img/home.svg"></li>
-                        <li><img src="./img/search.svg"></li>
-                        <li><img src="./img/libreria.svg"></li>
+                <div class="logo mb-20">
+                    <img class="logo-small" src="./img/logo-small.svg" alt="logo small" />
+                    <img class="logo-large" src="./img/logo.svg" alt="logo large" />
+                </div>
+
+                <!--Sidebar menu-->
+                <ul class="sidebar-menu mb-20">
+                    <li class="active">
+                        <a href="">
+                            <img src="./img/home.svg" alt="home">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/search.svg" alt="search">
+                            <span>Cerca</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/libreria.svg" alt="libreria">
+                            <span>La tua libreria</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--Fine Sidebar menu-->
+
+
+                <!--Playlist-->
+                <div class="playlist">
+                    <h4 class="mb-12">PLAYLIST</h4>
+                    <a class="add mb-12" href="">
+                        <span class="plus">+</i></span>
+                        <span>Crea playlist</span>
+                    </a>
+                    <ul>
+                        <li><a href="">Nuovo playlist</a></li>
+                        <li><a href="">Nuovo playlist</a></li>
+                        <li><a href="">Nuovo playlist</a></li>
+                        <li><a href="">Nuovo playlist</a></li>
                     </ul>
                 </div>
-                <div class="menu-sotto">
-                    <ul class="lista">
-                        <li><img src="./img/download.svg"></li>
-                        <li><img src="./img/profile.svg"></li>
-                    </ul>
+                <div class="profilo">
+                    <a class="scarica mb-12" href="">
+                        <img src="./img/download.svg" alt="download">
+                        <span>Installa App</span>
+                    </a>
+                    <hr class="mb-12" />
+                    <a class="utente" href="">
+                        <img src="./img/profile.svg" alt="profile">
+                        <span>John Doe</span>
+                    </a>
                 </div>
+                <!--Fine Playlist-->
+
             </div>
             <!--Fine Sidebar-->
 
@@ -44,7 +86,7 @@
                     </div>
                 </header>
                 <main>
-                    <nav class="main-nav">
+                    <nav class="main-nav mb-20 color-grey">
                         <ul>
                             <li><a href="">In evidenza</a></li>
                             <li><a href="">Podcast</a></li>
@@ -56,83 +98,72 @@
                     </nav>
 
                     <!--Recently played-->
-                    <section>
-                        <h2>Recently played</h2>
+                    <section class="mb-20">
+                        <h2 class="mb-20">Recently played</h2>
                         <div class="flex">
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/metal_lifting.jpg" alt="heavy metal" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>Heavy Metal</h4>
-                                    <p>Subtitle</p>
-                                </div>
+                                <img class="mb-20"src="./img/metal_lifting.jpg" alt="heavy metal" />
+                                <h3 class="mb-10">Heavy Metal</h3>
+                                <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/stranger.jpeg" alt="" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
-                                    <p>Kyle Dixon & Michael Stein</p>
-                                </div>
+                                <img class="mb-20"src="./img/stranger.jpeg" alt="" />
+                                <h3 class="mb-10">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                <p>Kyle Dixon & Michael Stein</p>
                             </div>
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/aquietplace.jpeg" alt="" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>A quiet place</h4>
-                                    <p>Subtitle</p>
-                                </div>
+                                <img class="mb-20"src="./img/aquietplace.jpeg" alt="" />
+                                <h3 class="mb-10">A quiet place</h3>
+                                <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/split.jpeg" alt="" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>Split</h4>
-                                    <p>Subtitle</p>
-                                </div>
+                                <img class="mb-20"src="./img/split.jpeg" alt="" />
+                                <h3 class="mb-10">Split</h3>
+                                <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/cure.jpeg" alt="" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>A cure for wellness</h4>
-                                    <p>Subtitle</p>
-                                </div>
+                                <img class="mb-20"src="./img/cure.jpeg" alt="" />
+                                <h3 class="mb-10">A cure for wellness</h3>
+                                <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <div class="card-image">
-                                    <img src="./img/sinister.jpeg" alt="" />
-                                </div>
-                                <div class="card-content">
-                                    <h4>Sinister</h4>
-                                    <p>Subtitle</p>
-                                </div>
+                                <img class="mb-20"src="./img/sinister.jpeg" alt="" />
+                                <h3 class="mb-10">Sinister</h3>
+                                <p>Subtitle</p>
                             </div>
-                        </div>
                     </section>
                     <!--Fine Recently played-->
 
                     <!--Creato per te-->
-                    <section>
-                        <h2>Creato per John Doe</h2>
+                    <section class="mb-20">
+                        <h2 class="mb-10">Creato per John Doe</h2>
+                        <p class="mb-20">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <div class="flex">
-                            <div class="col"></div>
-                            <div class="col"></div>
+                            <div class="col">
+                                <img class="mb-20"src="./img/radar.jpeg" alt="radar">
+                                <h3>Release Radar</h3>
+                            </div>
+                            <div class="col">
+                                <img class="mb-20"src="./img/mixdaily.jpeg" alt="mix">
+                                <h3>Daily Mix 1</h3>
+                            </div>
                         </div>
                     </section>
                     <!--Fine Creato per te-->
 
                     <!--Artisti più importanti-->
-                    <section>
-                        <h2>Artisti più popolari</h2>
+                    <section class="mb-20">
+                        <h2 class="mb-10">Artisti più popolari</h2>
+                        <p class="mb-20">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <div class="flex">
-                            <div class="col"></div>
-                            <div class="col"></div>
+                            <div class="col">
+                                <img class="rotondo mb-20" src="./img/youg.jpeg" alt="lana del rey">
+                                <h3>Lana del Rey</h3>
+                            </div>
+                            <div class="col">
+                                <img class="rotondo mb-20" src="./img/einaudi.jpeg" alt="ludovico einaudi">
+                                <h3>Ludovico Einaudi</h3>
+                            </div>
                         </div>
                     </section>
                     <!--FineArtisti più importanti-->
@@ -143,12 +174,15 @@
         <!--Fine Container-->
     </div>
     <!--Footer-->
-    <footer>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis atque quisquam corrupti impedit dolores
-        exercitationem? Voluptate ipsam iste nostrum magni eligendi dolor vero magnam perferendis saepe! Veritatis
-        fugiat eius soluta!
+    <footer class="music">
+        <div class="album">
+            <img src="./img/sinister.jpeg" alt="album sinister">
+            <h4>Sinister</h4>
+            <p>Brano Nome</p>
+        </div>
+        <div class="player">Player</div>
+        <div class="audio">Audio</div>
     </footer>
     <!--Fine Footer-->
 </body>
-
 </html>
