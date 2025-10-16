@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    <link rel="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
 </head>
@@ -102,32 +105,32 @@
                         <h2 class="mb-20">Recently played</h2>
                         <div class="flex">
                             <div class="col">
-                                <img class="mb-20"src="./img/metal_lifting.jpg" alt="heavy metal" />
+                                <img class="mb-20" src="./img/metal_lifting.jpg" alt="heavy metal" />
                                 <h3 class="mb-10">Heavy Metal</h3>
                                 <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/stranger.jpeg" alt="" />
+                                <img class="mb-20" src="./img/stranger.jpeg" alt="" />
                                 <h3 class="mb-10">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
                                 <p>Kyle Dixon & Michael Stein</p>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/aquietplace.jpeg" alt="" />
+                                <img class="mb-20" src="./img/aquietplace.jpeg" alt="" />
                                 <h3 class="mb-10">A quiet place</h3>
                                 <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/split.jpeg" alt="" />
+                                <img class="mb-20" src="./img/split.jpeg" alt="" />
                                 <h3 class="mb-10">Split</h3>
                                 <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/cure.jpeg" alt="" />
+                                <img class="mb-20" src="./img/cure.jpeg" alt="" />
                                 <h3 class="mb-10">A cure for wellness</h3>
                                 <p>Subtitle</p>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/sinister.jpeg" alt="" />
+                                <img class="mb-20" src="./img/sinister.jpeg" alt="" />
                                 <h3 class="mb-10">Sinister</h3>
                                 <p>Subtitle</p>
                             </div>
@@ -135,24 +138,24 @@
                     <!--Fine Recently played-->
 
                     <!--Creato per te-->
-                    <section class="mb-20">
+                    <section class="mb-20 py-20">
                         <h2 class="mb-10">Creato per John Doe</h2>
                         <p class="mb-20">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <div class="flex">
                             <div class="col">
-                                <img class="mb-20"src="./img/radar.jpeg" alt="radar">
+                                <img class="mb-20" src="./img/radar.jpeg" alt="radar">
                                 <h3>Release Radar</h3>
                             </div>
                             <div class="col">
-                                <img class="mb-20"src="./img/mixdaily.jpeg" alt="mix">
+                                <img class="mb-20" src="./img/mixdaily.jpeg" alt="mix">
                                 <h3>Daily Mix 1</h3>
                             </div>
                         </div>
                     </section>
                     <!--Fine Creato per te-->
 
-                    <!--Artisti più importanti-->
-                    <section class="mb-20">
+                    <!--Artisti più famosi-->
+                    <section class="mb-20 py-20">
                         <h2 class="mb-10">Artisti più popolari</h2>
                         <p class="mb-20">Più ascolti, più accurati saranno i suggerimenti.</p>
                         <div class="flex">
@@ -166,7 +169,7 @@
                             </div>
                         </div>
                     </section>
-                    <!--FineArtisti più importanti-->
+                    <!--Fine Artisti più famosi-->
                 </main>
             </div>
             <!--Fine Content-->
@@ -174,15 +177,51 @@
         <!--Fine Container-->
     </div>
     <!--Footer-->
-    <footer class="music">
-        <div class="album">
-            <img src="./img/sinister.jpeg" alt="album sinister">
-            <h4>Sinister</h4>
-            <p>Brano Nome</p>
+    <!--Info music-->
+    <footer class="player-bar">
+        <div class="song-info">
+            <img class="album-art" src="./img/sinister.jpeg" alt="Álbum de Sinister">
+            <div class="music">
+                <div class="song-details">
+                    <span class="song-title">Sinister</span>
+                    <span class="artist-name">Brano Nome</span>
+                </div>
+                <div class="like-icons desktop-visibile">
+                <button class="icon-button"><i class="fa-solid fa-heart"></i></button>
+                <button class="icon-button"><i class="fa-regular fa-folder"></i></button>
+                </div>
+            </div>
         </div>
-        <div class="player">Player</div>
-        <div class="audio">Audio</div>
+        <!--Fine info music-->
+        <!--Controls-->
+        <div class="playback-controls">
+            <div class="control-buttons">
+                <button class="icon-button"><i class="fa-solid fa-shuffle"></i></button>
+                <button class="icon-button"><i class="fa-solid fa-backward-step"></i></button>
+                <button class="main-play-button"><i class="fa-solid fa-circle-play"></i></button>
+                <button class="icon-button"><i class="fa-solid fa-forward-step"></i></button>
+                <button class="icon-button"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+            <div class="progress-bar-container">
+                <span class="current-time">0:25</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <span class="total-time">-5:35</span>
+            </div>
+        </div>
+        <!--Fine controls-->
+        <!--Extra controls-->
+        <div class="extra-controls">
+            <button class="icon-button"><i class="fa-solid fa-list-ul"></i></button>
+            <button class="icon-button"><i class="fa-solid fa-desktop"></i></button>
+            <button class="icon-button"><i class="fa-solid fa-volume-high"></i></button>
+            <div class="volume-bar">
+                <div class="volume-level"></div>
+            </div>
+        </div>
     </footer>
     <!--Fine Footer-->
 </body>
+
 </html>
