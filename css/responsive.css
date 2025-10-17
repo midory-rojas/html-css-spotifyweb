@@ -7,6 +7,16 @@
         width:calc(100% - 200px);
     }
 
+/* Utilities */
+.color-white {
+    color:white;
+}
+/* TYPOGRAFY */
+.sidebar {
+    font-size:14px;
+}
+
+
 /* Sidebar */
 .sidebar {
     padding:10px 20px;
@@ -39,12 +49,17 @@
     justify-content: center;
     align-items: center;
     color:black;
+    font-size: 25px;
 }
 .profilo a {
     justify-content:flex-start;
 }
 .profilo span {
     display:inline;
+}
+
+.profilo hr {
+    display:block;
 }
 /* FOOTER */
 

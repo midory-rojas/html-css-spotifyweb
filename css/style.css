@@ -11,7 +11,7 @@ img {
 
 body {
     font-family:"Montserrat", sans-serif;
-
+    font-size:15px;
 }
 
 a {
@@ -36,7 +36,8 @@ ul {
 
 /* TYPOGRAFY */
 h3 {
-   font-size: 1rem; 
+
+   font-family:"Montserrat", sans-serif; 
 }
 p {
     font-size: 0.75rem;
@@ -59,9 +60,7 @@ p {
 .logo-large {
     display:none;
 }
-.sidebar img {
-    opacity:0.6;
-}
+
 
 /* sidebar-menu */
 .sidebar-menu img {
@@ -82,6 +81,10 @@ p {
 .sidebar-menu li.active {
     color:white;
     font-weight:500;
+}
+.sidebar-menu img,
+.scarica img {
+    opacity:0.6;
 }
 
 
@@ -112,6 +115,7 @@ p {
 }
 .scarica img {
     width:20px;
+    margin-left: 3px;   
 }
 .utente img {
     width:30px;
@@ -121,6 +125,10 @@ p {
 }
 
 .profilo span {
+    display:none;
+}
+
+.profilo hr {
     display:none;
 }
 
@@ -157,7 +165,7 @@ p {
     border-radius: 30px;
     color: white;
     border: 2px solid white;
-    
+    font-size:14px;   
 }
 
 
@@ -299,7 +307,7 @@ main {
     border-radius:50%;
     border:2px solid white;
     cursor:pointer;
-    padding: 3px;
+    padding: 4px 4px;
 }
 
 .main-play-button:hover {
