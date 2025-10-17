@@ -165,7 +165,7 @@ p {
 .content {
     width:calc(100% - 60px);
     overflow-y: auto;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(22 25 34);
     color:white;
 }
 
@@ -220,7 +220,7 @@ main {
 
 .player-bar {
       height:90px;
-      background-color: rgb(18, 18, 18);
+      background-color: rgb(37 35 35);
       display:flex;
       justify-content: space-between;
       width:100%;
@@ -251,6 +251,7 @@ main {
 .song-info {
     display:flex;
     align-items: center;
+    cursor:pointer;
     
 }
 .album-art {
@@ -291,9 +292,21 @@ main {
 }
 
 .main-play-button {
-    font-size:28px;
-
+    font-size:20px;
+    background-color: transparent;
+    color:white;
+    border: none;
+    border-radius:50%;
+    border:2px solid white;
+    cursor:pointer;
+    padding: 3px;
 }
+
+.main-play-button:hover {
+    color:#ffffff;
+}
+
+
 .progress-bar-container {
     display:flex;
     align-items:center;

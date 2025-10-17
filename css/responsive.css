@@ -46,6 +46,30 @@
 .profilo span {
     display:inline;
 }
+/* FOOTER */
+
+.control-buttons .icon-button {
+margin:0 8px;
+font-size: 15px;
+}
+.main-play-button {
+    font-size:23px;
+}
+.desktop-visibile {
+    padding-left: 20px;
+}
+.icon-button {
+    font-size:14px;
+}
+.progress-bar-container {
+    width:75%;
+}
+.extra-controls .icon-button {
+    margin:0 8px;
+}
+.volume-bar {
+    width:75px;
+}
 }
 
 
